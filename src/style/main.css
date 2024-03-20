@@ -58,7 +58,7 @@
 .jumbotron{
   padding-top: 300px;
   height: 100vh;
-  background-image: url('./public/img/tenda1.jpeg');
+  background-image: url('/img/tenda1.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
