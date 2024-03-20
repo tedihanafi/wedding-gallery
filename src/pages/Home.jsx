@@ -10,10 +10,10 @@ export const Home = () => {
         <h1>Mifth Mifth</h1>
         <h3>Makeup & Wedding Gallery</h3>
         <div className="sosial">
-          <img src="./public/img/wa.png" alt="foto-wa" />
-          <img src="./public/img/fb.png" alt="foto-fb" />
-          <img src="./public/img/tiktok.png" alt="foto-tiktok" />
-          <img src="./public/img/ig.png" alt="foto-ig" />
+          <img src="/img/wa.png" alt="foto-wa" />
+          <img src="/img/fb.png" alt="foto-fb" />
+          <img src="/img/tiktok.png" alt="foto-tiktok" />
+          <img src="/img/ig.png" alt="foto-ig" />
         </div>
       </div>
 
