@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+    background: 	#E8E8E8;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+
+/* NAVBAR */
+.header{
+  background-color: #FF3EA5 !important;
+}
+
+  .header .menu a{
+    color: white;
+    font-size: 18px;
+    margin: 2px;
+    text-decoration: none;
+  }
+
+  .header .daftar a{
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .header .daftar{
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+
+  .header .daftar a:hover{
+    color: white;
+
+  }
+  .header .daftar:hover{
+    /* color: black; */
+    background-color: #006400;
+    color: white;
+
+  }
+
+/* AKHIR NAVBAR */
+
+
+
+/* HOME */
+
+/* jumbotron */
+.jumbotron{
+  padding-top: 300px;
+  height: 100vh;
+  background-image: url('./public/img/tenda1.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  color: white; /* Warna teks h1 */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Bayangan pada teks h1 */
+}
+
+.jumbotron h3 {
+  font-size: 50px;
+  color: white; /* Warna teks h3 */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Bayangan pada teks h3 */
+}
+
+.jumbotron .sosial{
+  margin-top: 40px;
+}
+.jumbotron .sosial img {
+  width: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+
+/* home-paketan */
+/* card components */
+.home-paketan {
+  padding-bottom: 100px;
+  text-align: center; /* Menyertakan properti text-align: center; pada home-paketan */
+}
+
+.card-paketan .card-img-top {
+  object-fit: cover; /* Menjamin gambar memenuhi kotak gambar tanpa deformasi */
+  height: 300px; /* Tentukan tinggi gambar yang diinginkan */
+}
+
+
+.card-paketan {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-paketan .card-body {
+  text-align: left; /* Menambahkan properti text-align: left; untuk konten kartu */
+}
+
+.home-paketan .button-paketan {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 5px;
+  background: rgb(3, 153, 3);
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  box-shadow: 2px 4px 4px rgba(114, 112, 112, 0.8);
+  margin-top: 20px; /* Menambahkan margin top agar tombol tidak terlalu rapat dengan kartu */
+}
+
+.home-paketan .button-paketan:hover {
+  background: rgb(2, 85, 2);
+}
+
+.home-paketan h2 {
+  padding-top: 80px;
+}
+
+/* Mengatur lebar kartu untuk tampilan mobile */
+@media screen and (max-width: 768px) {
+  .card-paketan {
+    padding: 10px;
+  }
+
+  .card-paketan .card {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+/* testimoni-home */
+.testi-com{
+  margin-bottom: 100px;
+}
+.testi-com h1{
+  padding-bottom: 70px;
+}
+.body-testi {
+  display: flex;
+  cursor: grab;
+  margin-bottom: 100px;
+  padding: 0px 20px;
+  align-items: center; /* Membuat gambar dan teks di tengah-tengah secara vertikal */
+}
+.body-testi:active {
+  cursor: grabbing;
+}
+
+/* Tambahkan gaya untuk elemen img dalam kelas img-testi */
+.body-testi img {
+  width: 80px; /* Ukuran gambar */
+  height: 80px; /* Sesuaikan jika diperlukan */
+  margin-right: 10px; /* Jarak antara gambar dan teks */
+}
+.body-testi p{
+  font-size: 13px;
+  text-align: left;
+  padding-left: 10px;
+}
+.body-testi h5{
+  font-size: 17px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+
+
+/* accordion-home */
+.accordion{
+  margin-bottom: 80px;
+}
+.accordion .accor-h1{
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+/* AKHIR HOME */
+
+
+
+
+/* ACCORDION */
+.accordion .accordion-item{
+  background: #FF3EA5;
+  color: white;
+}
+
+.accordion .accordion-item {
+  margin-bottom: 10px; /* Menambahkan margin bawah pada setiap item accordion */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PAGES PAKETAN */
+.pages-paketan {
+  padding-bottom: 100px;
+  text-align: center; /* Menyertakan properti text-align: center; pada home-paketan */
+}
+.pages-paketan a{
+  text-decoration: none;
+}
+
+.card-paketan .card-img-top {
+  object-fit: cover; /* Menjamin gambar memenuhi kotak gambar tanpa deformasi */
+  height: 300px; /* Tentukan tinggi gambar yang diinginkan */
+}
+
+
+.card-paketan {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-paketan .card-body {
+  text-align: left; /* Menambahkan properti text-align: left; untuk konten kartu */
+}
+
+.pages-paketan .button-paketan {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 5px;
+  background: rgb(3, 153, 3);
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  box-shadow: 2px 4px 4px rgba(114, 112, 112, 0.8);
+  margin-top: 20px; /* Menambahkan margin top agar tombol tidak terlalu rapat dengan kartu */
+}
+
+.pages-paketan .button-paketan:hover {
+  background: rgb(2, 85, 2);
+}
+
+.pages-paketan h2 {
+  padding-top: 100px;
+}
+
+/* Mengatur lebar kartu untuk tampilan mobile */
+@media screen and (max-width: 768px) {
+  .card-paketan {
+    padding: 10px;
+  }
+
+  .card-paketan .card {
+    width: 100%;
+  }
+}
+/* AKHIR PAKETAN */
+
+
+
+/* PAGES GALLERY */
+.gallery{
+  padding-top: 100px;
+}
+.gallery h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gallery img {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* Menjaga aspek rasio gambar dan fokus pada tengah */
+}
+
+.gallery .fancybox{
+  display: flex;
+  margin-top: 9000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* LOKASI DAN CONTACT */
+.lokasi-kontak h1{
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  }
+  
+  .lokasi-kontak .alamat-kontak{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .alamat-kontak {
+    display: flex; /* Menggunakan flexbox */
+  }
+  
+  .alamat-home {
+    width: 60%; /* Memberikan lebar 70% pada bagian alamat */
+    padding-left: 30px;
+  }
+  
+  .kontak-home {
+    width: 20%; /* Memberikan lebar 30% pada bagian kontak */
+  }
+  
+
+/* Tata letak satu kolom di bawah 1150px */
+@media (max-width: 1150px) {
+  .alamat-kontak {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .alamat-home,
+  .kontak-home {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+
+  .alamat-home {
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* Tata letak satu baris di atas 1150px */
+@media (min-width: 1151px) {
+  .alamat-kontak {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .alamat-home {
+    width: 60%;
+    padding-left: 30px;
+    margin-bottom: 0;
+  }
+
+  .kontak-home {
+    width: 20%;
+  }
+}
+
+
+
+
+
+/* TESTIMONI */
+.testimoni{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 90px;
+  height: 500px;  /* nanti hapus */
+}
+
+
+.kontak{
+  text-align: center;
+  font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 800px;
+}
+
+
+
+  /* FOOTER */
+.footer{
+    background-color: #FF3EA5 ;
+  }
+  .footer a{
+    text-decoration: none;
+  }
+  
+  .footer .text-muted{
+    text-align: center;
+  }
+  
+  .footer p{
+    color: white !important;
+  }
+  .footer p span{
+    color: black;
+    font-weight: 600;
+  }
+
+  /* AKHIR FOOTER */
