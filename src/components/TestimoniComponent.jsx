@@ -32,7 +32,7 @@ const TestimoniComponent = () => {
             <SwiperSlide key={index}>
               <div className="body-testi">
                 {/* Menggunakan data dari dataTesti */}
-                <img src={`/public/img/${item.link}.${item.extension}`} alt={`img-${index + 1}`} />
+                <img src={`/img/${item.link}.${item.extension}`} alt={`img-${index + 1}`} />
                 <div className="isi-testi">
                   {/* Menggunakan data dari dataTesti */}
                   <p>{item.description}</p>
